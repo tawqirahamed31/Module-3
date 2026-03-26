@@ -15,8 +15,27 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-Add Code Here
+```
+def remove(s):
+    n = int(input("Enter index to remove: "))
+    a = ""
 
+    for i in range(len(s)):
+        if i != n:
+            a += s[i]
+
+    return a
+
+# Input string
+s = input("Enter a string: ")
+
+# Function call
+result = remove(s)
+
+print("Modified string:", result)
+```
 ## Output
+<img width="570" height="412" alt="image" src="https://github.com/user-attachments/assets/e556b457-5dca-4074-915a-3d0c821f53a9" />
 
 ## Result
+Thus, the Python program to remove the character at a specified index from a string was successfully executed.
