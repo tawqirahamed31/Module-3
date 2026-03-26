@@ -15,8 +15,6 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 ```
-# Filter words without 'e' using regex
-
 import re
 
 l1 = []
